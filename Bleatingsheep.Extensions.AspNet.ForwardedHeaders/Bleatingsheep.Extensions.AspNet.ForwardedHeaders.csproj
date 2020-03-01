@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netcoreapp3.1</TargetFrameworks>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>CS8600;CS8602;CS8603</WarningsAsErrors>
+    <Authors>bleatingsheep</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>bleatingsheep</Copyright>
+    <Description>Allows you configure forwarded headers convinently with Caddy and Docker.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.HttpOverrides" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.2" />
+  </ItemGroup>
+
+</Project>
